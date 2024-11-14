@@ -1,0 +1,54 @@
+/* Basic styles */
+body, html {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: #f5f5f5;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+}
+
+#url-input {
+    width: 80%;
+    padding: 10px;
+    font-size: 16px;
+}
+
+#fetch-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#output {
+    margin-top: 20px;
+    white-space: pre-wrap;
+    text-align: left;
+    background-color: #333;
+    color: #eee;
+    padding: 20px;
+    max-width: 90%;
+    margin: auto;
+    overflow-wrap: break-word;
+}
+
+.toggle-container {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+/* Dark mode styles */
+body.dark-mode {
+    background-color: #333;
+    color: #eee;
+}
+
+body.dark-mode #output {
+    background-color: #222;
+    color: #ddd;
+}
